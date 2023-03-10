@@ -1,0 +1,45 @@
+{
+    "name": "playerActions",
+    "maps": [
+        {
+            "name": "player",
+            "id": "70f9abba-f583-446d-8b53-73c016d412f4",
+            "actions": [
+                {
+                    "name": "wire",
+                    "type": "Button",
+                    "id": "4dc79dae-351b-4736-a119-71fc7607e43a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "23cff02d-5b29-4af6-b6b9-df30cbb6520e",
+                    "path": "<OculusTouchController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "wire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c5d02b70-cb63-42e8-b543-7d13fba9fe59",
+                    "path": "<OculusTouchController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "wire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

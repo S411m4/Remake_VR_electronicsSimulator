@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f78c6a33da4ec7648ada4a041740f3e7, type: 3}
+  m_Name: Res330
+  m_EditorClassIdentifier: 
+  name: Res330
+  prefab: {fileID: 5668857657428984543, guid: da5332b0639c2bd4592ecce0ac8f0c37, type: 3}
+  image: {fileID: 21300000, guid: df4b2a02a628476479f95eeb4fe93e7e, type: 3}
+  ResistorValueOhm: 330
+  band1Color: {fileID: 2100000, guid: 96f6f9d997fb50a4ea0130895ff36c7c, type: 2}
+  band2Color: {fileID: 2100000, guid: 96f6f9d997fb50a4ea0130895ff36c7c, type: 2}
+  multiplierBandColor: {fileID: 2100000, guid: edc271993ec98c84aa6c1d04d22d8cfb, type: 2}
